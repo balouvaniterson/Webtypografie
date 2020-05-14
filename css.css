@@ -6,10 +6,42 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	height: 100%;
+
+}
+
+*,html,body{
+	box-sizing: border-box;
+}
+
+
+#video-placeholder{
+	width: 60%;
+	height: 60%;
+	position: relative;
+	top: 35%;
+	transform: translateY(-50%);
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	color: white;
+	left: 30%;
+	top: 65%;
+	size: 2em;
+	font-size: large;
+	right: 0;
+	left: 0;
+	text-align: center;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -49,6 +81,62 @@ Feel free to adjust the defaults to your needs.
 }
 
 
+/* Heads */
+
+.svg {
+	position: relative;
+	left: 50%;
+}
+
+.cls-1 {
+	opacity: 1;
+  }
+
+  .cls-2 {
+	fill: #ddbca6;
+  }
+
+  .cls-3 {
+	fill: #ffccba;
+  }
+
+  .cls-4 {
+	fill: #564b35;
+  }
+
+  .cls-5 {
+	fill: #b57662;
+	opacity: 0.4;
+  }
+
+  .cls-6 {
+	fill: #d39484;
+  }
+
+  .cls-7 {
+	fill: #fff;
+  }
+
+  .cls-8 {
+	fill: #4d5d61;
+  }
+
+/* Timeline */
+
+.sound0 {
+	background: hotpink;
+}
+
+.sound1 #video-placeholder {
+	transform: rotate(5deg);
+}
+
+.sound2 #video-placeholder {
+	transform: rotate(0deg);
+}
+
+
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -56,167 +144,302 @@ The first paragraph, with extended timing for
 	corresponds with the time that the word is
 	spoken.
 You probably want to change the styling.
+
+Met span :nth-of-type(nummer van woord hier) kun je ieder woord veranderen.
 ********************************************** */
 
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkolivegreen;
+	color: lightgreen;
+}
+
+.p1.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p2.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkolivegreen;
+	color: lightgreen;
 }
 
-.p6.on span:first-of-type {
+.p3.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkred;
+	color: yellow;
+}
+
+.p5.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+}
+
+.p4.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+}
+
+.p7.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+}
+
+.p8.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: lightblue;
+}
+
+.p9.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p10.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p11.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p12.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p13.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p14.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p15.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p16.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p17.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p18.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p19.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
+.p20.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+}
 
 .p21.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p22.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p23.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p24.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p25.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p26.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p27.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p28.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p29.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p30.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p31.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p32.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p33.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p34.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p35.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
 }
 
 .p36.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p37.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p38.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkblue;
+	color: lightblue;
+}
+
+.p39.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }
 
 .p40.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkolivegreen;
+	color: lightblue;
 }
+
+.p41.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+}
+
+.p42.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+}
+
+.p43.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+} 
 
 .p44.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkolivegreen;
+	color: lightgreen;
 }
 
 .p45.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkolivegreen;
+	color: lightgreen;
 }
 
 .p46 .on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkolivegreen;
+	color: lightgreen;
 }
 
 .p47 .on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	color: darkolivegreen;
+	color: lightgreen;
+}
+
+/* 2de deel */
+
+.p48.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: lightblue;
+}
+
+.p49.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
 }

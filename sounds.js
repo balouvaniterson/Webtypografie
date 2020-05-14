@@ -1,7 +1,9 @@
 // Hier kan je tijden toevoegen in secondes
 // Op die mommenten komt er een class op de body.
+// De eerste is 0, tweede is 1, derde is 2. Wordt toegevoegd aan de html. Kun je stylen in css voor die tijd. Check console.
 sounds = [
 	0,
+	3,
 	9,
 	12,
 	15,
