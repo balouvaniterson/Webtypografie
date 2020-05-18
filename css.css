@@ -30,13 +30,15 @@ html,body{
 	display: flex;
 }
 
-#closed-captions p {
+/* Closed captions */
+
+#closed-captions p{
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
 	color: white;
 	left: 30%;
-	top: 65%;
+	top: 75%;
 	size: 2em;
 	font-size: large;
 	right: 0;
@@ -50,6 +52,21 @@ html,body{
 	transition: .2s;
 	opacity: 0;
 }
+
+#talk1 p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+	color: white;
+	left: 10%;
+	top: 75%;
+	size: 2em;
+	font-size: large;
+	right: 0;
+	left: 1;
+}
+
+
 .robot {
 	font-family: "brenner mono";
 	font-weight: 600;
@@ -81,59 +98,556 @@ html,body{
 }
 
 
-/* Heads */
+/* SVG'S */
 
-.svg {
+.svgjoe {
 	position: relative;
-	left: 50%;
+	left: 20%;
+	margin-top: 5%;
+	opacity: 0%;
 }
 
-.cls-1 {
-	opacity: 1;
+.svgexaminator {
+	position: absolute;
+	margin-top: 5%;
+	left: 20%;
+	opacity: 0%;
+}
+
+.svgangry {
+	position: absolute;
+	margin-top: 5.5%;
+	opacity: 0%;
+	left: 20%;
+}
+
+.svgbaseline {
+	position: absolute;
+	margin-top: 5%;
+	opacity: 0%;
+	left: 16%;
+}
+
+
+
+  /* Head Joe */ 
+
+  .neck1{
+	fill: #d6ae94;
   }
 
-  .cls-2 {
-	fill: #ddbca6;
+  .face1{
+	fill: #f7ceb2;
   }
 
-  .cls-3 {
-	fill: #ffccba;
-  }
-
-  .cls-4 {
+  .rightbrow1{
 	fill: #564b35;
   }
 
+  .leftear1{
+	fill: #ad7a6e;
+  }
+
+  .nose1{
+	fill: #ad7a6e;
+  }
+
+  .beard1{
+	fill: #806e4d;
+  }
+
+  .leftbrow1{
+	fill: #564b35;
+  }
+
+
+  .mouth1{
+	fill: #ffffff;
+  }
+
+  .righteye1{
+	fill: #51686e;
+  }
+
+  .lefteye1{
+	fill: #51686e;
+  }
+
+  .righteye2{
+	fill: #51686e;
+  }
+
+  .lefteye2{
+	fill: #51686e;
+  }
+
+  .hair1{
+	fill: #564b35;
+  }
+
+
+  /* Head Examinator */ 
+
+.examinator {
+	
+	fill: #fff;
+}
+
+/* Head Angry man */ 
+
+.redeyes{
+	fill: #b8391a;
+  }
+
+/* Baseline test */ 
+
+.cls-1 {
+	isolation: isolate;
+  }
+
+  .cls-2 {
+	opacity: 0.5;
+	mix-blend-mode: multiply;
+  }
+
+  .cls-3 {
+	fill: #edeef0;
+  }
+
+  .cls-4 {
+	fill: #bcbcbc;
+  }
+
   .cls-5 {
-	fill: #b57662;
-	opacity: 0.4;
-  }
-
-  .cls-6 {
-	fill: #d39484;
-  }
-
-  .cls-7 {
 	fill: #fff;
   }
 
-  .cls-8 {
-	fill: #4d5d61;
+  .cls-6 {
+	fill: #d7d9d6;
   }
+
 
 /* Timeline */
 
-.sound0 {
-	background: hotpink;
+.sound3 .svgexaminator{
+	opacity: 100%;
+	transition: 0.5s ease;
 }
 
+.sound8 .svgexaminator{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound8 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound11 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound11 .svgexaminator{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound12 .svgexaminator{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound12 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound16 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound17 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound22 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound23 .svgangry{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound25 .svgangry{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound27 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound32 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound32 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound33 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound33 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound34 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound34 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound36 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound36 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound37 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound37 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound39 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound36 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound39 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound39 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound43 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound43 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound44 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound44 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound45 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound45 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound46 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound46 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound48 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound48 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound49 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound49 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+.sound51 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound51 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound52 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound52 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound55 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound55 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound56 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound56 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound57 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound57 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound58 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+.sound58 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound60 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound60 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound61 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound61 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+
+.sound63 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound63 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound64 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound64 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound66 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound66 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound67 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound67 .svgbaseline{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound69 .svgbaseline{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound69 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound75 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound77 .svgexaminator{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound79 .svgexaminator{
+	opacity: 0%;
+	transition: 0,5s ease;
+}
+
+.sound80 .svgexaminator{
+	opacity: 100%;
+	transition: s ease;
+}
+
+.sound84 .svgexaminator{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+.sound85 .svgjoe{
+	opacity: 100%;
+	transition: 0.5s ease;
+}
+
+.sound87 .svgjoe{
+	opacity: 0%;
+	transition: 0.5s ease;
+}
+
+
+
+
+
+
+
 .sound1 #video-placeholder {
-	transform: rotate(5deg);
+	
 }
 
 .sound2 #video-placeholder {
-	transform: rotate(0deg);
+
 }
+
+/* Animations */
+
+.head-left{
+	position: absolute;
+	left: -10rem;
+	width: 150px;
+	height: 150px;
+	background-size: 150px 150px;
+	transform: rotate(0deg);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+.head-left{
+	animation: svg 2s ease-in-out;
+	transform: rotate(-10deg);
+}
+
+@keyframes svg {
+	0%  {right: -10rem;}
+	5%  {right: -10rem;}
+	10%  {right: -10rem;}
+	15%  {right: -10rem;}
+	20%  {right: 0rem;}
+	25%  {right: 0rem;}
+	30%  {right: 0rem;}
+	35%  {right: 0rem;}
+	40%  {right: 0rem;}
+	45%  {right: 0rem;}
+	50%  {right: 0rem;}
+	55%  {right: 0rem;}
+	60%  {right: 0rem;}
+	65%  {right: 0rem;}
+	70%  {right: 0rem;}
+	75%  {right: 0rem;}
+	80%  {right: 0rem;}
+	85%  {right: -10rem;}
+	90%  {right: -10rem;}
+	95%  {right: -10rem;}
+	100%  {right: -10rem;}
+}
+
 
 
 
