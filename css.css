@@ -41,9 +41,7 @@ html,body{
 	top: 75%;
 	size: 2em;
 	font-size: large;
-	right: 0;
-	left: 0;
-	text-align: center;
+	text-align: left;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -227,46 +225,49 @@ html,body{
   }
 
 
-/* Timeline */
+/* Timeline */]
+
+.sound0 {
+}
 
 .sound3 .svgexaminator{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound8 .svgexaminator{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound8 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound11 .svgjoe{
+.sound9 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound11 .svgexaminator{
+.sound10 .svgexaminator{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound12 .svgexaminator{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound12 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound16 .svgjoe{
+.sound15 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound17 .svgjoe{
@@ -274,49 +275,49 @@ html,body{
 	transition: 0.5s ease;
 }
 
-.sound22 .svgjoe{
+.sound23 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound23 .svgangry{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound25 .svgangry{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound27 .svgjoe{
+.sound26 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound32 .svgjoe{
+.sound31 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound32 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound33 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound33 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound34 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound34 .svgbaseline{
@@ -326,42 +327,43 @@ html,body{
 
 .sound36 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound36 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound37 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound37 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound39 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound36 .svgjoe{
-	opacity: 100%;
-	transition: 0.5s ease;
-}
 
 .sound39 .svgjoe{
-	opacity: 0%;
-	transition: 0.5s ease;
+	opacity: 100%;
+	transition: 0.2s ease;
 }
 
-.sound39 .svgbaseline{
+.sound40 .svgjoe{
+	opacity: 0%;
+	transition: 0.2s ease;
+}
+
+.sound40 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound43 .svgbaseline{
@@ -371,141 +373,141 @@ html,body{
 
 .sound43 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound44 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound44 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound45 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound45 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound46 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound46 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound48 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound48 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound49 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound49 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
-.sound51 .svgbaseline{
+.sound50 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound51 .svgjoe{
+.sound50 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound52 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound52 .svgbaseline{
 	opacity: 100%;
+	transition: 0.2s ease;
+}
+
+.sound54 .svgbaseline{
+	opacity: 0%;
+	transition: 0.2s ease;
+}
+
+.sound54 .svgjoe{
+	opacity: 100%;
+	transition: 0.2s ease;
+}
+
+.sound55 .svgjoe{
+	opacity: 0%;
 	transition: 0.5s ease;
 }
 
 .sound55 .svgbaseline{
-	opacity: 0%;
-	transition: 0.5s ease;
-}
-
-.sound55 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
-}
-
-.sound56 .svgjoe{
-	opacity: 0%;
-	transition: 0.5s ease;
-}
-
-.sound56 .svgbaseline{
-	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound57 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound57 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound58 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 .sound58 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound60 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound60 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound61 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound61 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 
 .sound63 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound63 .svgjoe{
@@ -515,92 +517,79 @@ html,body{
 
 .sound64 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound64 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound66 .svgbaseline{
+.sound65 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
+}
+
+.sound65 .svgjoe{
+	opacity: 100%;
+	transition: 0.2s ease;
 }
 
 .sound66 .svgjoe{
-	opacity: 100%;
-	transition: 0.5s ease;
-}
-
-.sound67 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound67 .svgbaseline{
+.sound66 .svgbaseline{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound69 .svgbaseline{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound69 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound75 .svgjoe{
+.sound74 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound77 .svgexaminator{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-.sound79 .svgexaminator{
+.sound78 .svgexaminator{
 	opacity: 0%;
-	transition: 0,5s ease;
+	transition: 0.2s ease;
 }
 
 .sound80 .svgexaminator{
 	opacity: 100%;
-	transition: s ease;
+	transition: 0.2s ease;
 }
 
 .sound84 .svgexaminator{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound85 .svgjoe{
 	opacity: 100%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
 .sound87 .svgjoe{
 	opacity: 0%;
-	transition: 0.5s ease;
+	transition: 0.2s ease;
 }
 
-
-
-
-
-
-
-.sound1 #video-placeholder {
-	
-}
-
-.sound2 #video-placeholder {
-
-}
 
 /* Animations */
 
@@ -623,6 +612,7 @@ html,body{
 	animation: svg 2s ease-in-out;
 	transform: rotate(-10deg);
 }
+
 
 @keyframes svg {
 	0%  {right: -10rem;}
@@ -648,7 +638,13 @@ html,body{
 	100%  {right: -10rem;}
 }
 
-
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
 
 
 /* **********************************************
@@ -924,36 +920,25 @@ Met span :nth-of-type(nummer van woord hier) kun je ieder woord veranderen.
 	opacity: 1;
 	transition: 0s;
 	color: lightgreen;
-}
+} 
 
 .p45.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
 	color: lightgreen;
-}
+} 
 
-.p46 .on span:first-of-type {
+.p46.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
 	color: lightgreen;
-}
+} 
 
-.p47 .on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightgreen;
-}
-
-/* 2de deel */
-
-.p48.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p49.on span:first-of-type {
+.p47.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
 	color: yellow;
-}
+} 
+
+
+/* 2de deel */

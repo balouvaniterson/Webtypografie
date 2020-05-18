@@ -1,5 +1,6 @@
 var player;
 
+
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('video-placeholder', {
 		width: 600,
@@ -39,6 +40,7 @@ function addSpans(){
 
 function updateTimerDisplay(){
 	var t = player.getCurrentTime();
+	console.log(t)
 	t = Math.floor10(t,-1);
 	// for each paragraph we want to know:
 	// (paragraph number, start time, end time, current time)
@@ -136,3 +138,6 @@ function sTimes(num,soundStarts,curT) {
 		};
 	}
 })();
+
+
+
