@@ -11,6 +11,7 @@ html,body{
 	padding: 0;
 	background-color: #000;
 	height: 100%;
+	position: relative;
 
 }
 
@@ -33,7 +34,7 @@ html,body{
 /* Closed captions */
 
 #closed-captions{
-position: relative;
+
 }
 
 #closed-captions p{
@@ -41,11 +42,11 @@ position: relative;
 	transition: .05s;
 	position: absolute;
 	color: white;
-	left: 29%;
+	left: 20%;
 	top: 75%;
 	size: 2em;
 	font-size: large;
-	text-align: left;
+	text-align: center;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -65,16 +66,27 @@ position: relative;
 .joeface::before {
 	content: url(joejpg.svg);
 	position: absolute;
-	width: 100%;
-	height: 100%;
-	right: 150%;
-	top: 200%;
-}
-
-
-.joe {
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	right: 120%;
 	font-weight: 500;
 }
+
+
+.joeface1::before {
+	content: '';
+position: absolute;
+width: 200px;
+height: 200px;
+right: 75%;
+background-image: url(joejpg.svg);
+background-position: center;
+background-size: contain;
+}
+
+
+
 
 .examinator {
 	font-weight: 500;
