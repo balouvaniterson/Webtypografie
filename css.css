@@ -63,12 +63,12 @@ position: relative;
 }
 
 .joeface::before {
-	content: "";
+	content: url(joejpg.svg);
 	position: absolute;
-	background-image: url(../jpg/joejpg.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: left;
+	width: 100%;
+	height: 100%;
+	right: 150%;
+	top: 200%;
 }
 
 
