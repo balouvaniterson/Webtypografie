@@ -12,6 +12,7 @@ html,body{
 	background-color: #000;
 	height: 100%;
 	position: relative;
+	overflow-x: hidden;
 
 }
 
@@ -38,6 +39,7 @@ html,body{
 }
 
 #closed-captions p{
+	width: 100%;
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
@@ -45,8 +47,6 @@ html,body{
 	left: 20%;
 	top: 75%;
 	size: 2em;
-	font-size: large;
-	text-align: center;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -57,605 +57,182 @@ html,body{
 }
 
 
-.robot {
-	font-family: "brenner mono";
-	font-weight: 400;
-	padding-right: 30%;
-}
-
 .joeface::before {
 	content: url(joejpg.svg);
 	position: absolute;
 	width: 100px;
 	height: 100px;
 	bottom: 10px;
-	right: 120%;
-	font-weight: 500;
+	left: -8%;
+}
+
+.joeface {
+	font-weight: 400;
+	font-size: large;
+}
+
+.robot::before {
+	content: url(robotjpg.svg);
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	left: 55%;
+	top: -340%;
+}
+
+.robot {
+	font-weight: 400;
+	font-family: "brenner mono";
+	text-align: end;
+	padding-right: 760px;
 }
 
 
-.joeface1::before {
-	content: '';
-position: absolute;
-width: 200px;
-height: 200px;
-right: 75%;
-background-image: url(joejpg.svg);
-background-position: center;
-background-size: contain;
+.soldier::before {
+	content: url(soldierjpg.svg);
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	bottom: -5px;
+	left: -8%;
 }
 
-
-
-
-.examinator {
-	font-weight: 500;
-}
-
-.uppercase {
-	text-transform: uppercase;
+.soldier {
+	font-weight: 400;
 	font-family: "brenner slab";
+	text-transform: uppercase;
+}
+
+.examinator::before {
+	content: url(examinatorjpg.svg);
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	left: 55%;
+}
+
+.examinator{
 	font-weight: 500;
-	margin-left: 32%;
+	font-style: italic;
+	text-align: end;
+	padding-right: 790px;
+	font-size: large;
 }
-
-
-/* SVG'S */
-
-.svgjoe {
-	position: relative;
-	left: 22%;
-	margin-top: 5%;
-	opacity: 0%;
-}
-
-.svgexaminator {
-	position: absolute;
-	margin-top: 5%;
-	left: 22%;
-	opacity: 0%;
-}
-
-.svgangry {
-	position: absolute;
-	margin-top: 5.5%;
-	opacity: 0%;
-	left: 75%;
-}
-
-.svgbaseline {
-	position: absolute;
-	margin-top: 5%;
-	opacity: 0%;
-	left: 68%;
-}
-
-
-
-  /* Head Joe */ 
-
-  .neck1{
-	fill: #d6ae94;
-  }
-
-  .face1{
-	fill: #f7ceb2;
-  }
-
-  .rightbrow1{
-	fill: #564b35;
-  }
-
-  .leftear1{
-	fill: #ad7a6e;
-  }
-
-  .nose1{
-	fill: #ad7a6e;
-  }
-
-  .beard1{
-	fill: #806e4d;
-  }
-
-  .leftbrow1{
-	fill: #564b35;
-  }
-
-
-  .mouth1{
-	fill: #ffffff;
-  }
-
-  .righteye1{
-	fill: #51686e;
-  }
-
-  .lefteye1{
-	fill: #51686e;
-  }
-
-  .righteye2{
-	fill: #51686e;
-  }
-
-  .lefteye2{
-	fill: #51686e;
-  }
-
-  .hair1{
-	fill: #564b35;
-  }
-
-
-  /* Head Examinator */ 
-
-.examinator {
-	
-	fill: #fff;
-}
-
-/* Head Angry man */ 
-
-.redeyes{
-	fill: #b8391a;
-  }
-
-/* Baseline test */ 
-
-.cls-1 {
-	isolation: isolate;
-  }
-
-  .cls-2 {
-	opacity: 0.5;
-	mix-blend-mode: multiply;
-  }
-
-  .cls-3 {
-	fill: #edeef0;
-  }
-
-  .cls-4 {
-	fill: #bcbcbc;
-  }
-
-  .cls-5 {
-	fill: #fff;
-  }
-
-  .cls-6 {
-	fill: #d7d9d6;
-  }
 
 
 /* Timeline */
 
-body .sound1{
-	animation-name: wiggle 2s ease;
+.sound0 #video-placeholder {
+	animation: shake 0.8s ease-in-out;
+	animation-iteration-count: 10;
 }
 
-.sound3 {
-	
+.sound1 {
+	animation: redbg 1s ease-in-out;
+	animation-iteration-count: 2;
 }
 
-.sound3 .svgexaminator{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound8 .svgexaminator{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound8 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-
-.sound9 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound10 .svgexaminator{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound12 .svgexaminator{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound12 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound15 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound17 .svgjoe{
-	opacity: 100%;
-	transition: 0.5s ease;
-}
-
-.sound23 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound23 .svgangry{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound25 .svgangry{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound26 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound31 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound32 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound33 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound33 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound34 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound34 .svgbaseline{
-	opacity: 100%;
-	transition: 0.5s ease;
-}
-
-.sound36 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound36 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound37 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound37 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound39 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-
-.sound39 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound40 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound40 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound43 .svgbaseline{
-	opacity: 0%;
-	transition: 0.5s ease;
-}
-
-.sound43 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound44 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound44 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
 
-.sound45 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
+.sound2 #video-placeholder {
+	animation: politie 1s ease-in-out;
+	animation-iteration-count: 1;
 }
 
-.sound45 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
+.sound2 {
+	animation: whitebg 1s ease-in-out;
+	animation-iteration-count: 1;
 }
 
-.sound46 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
+.sound3 #video-placeholder {
+	animation: shake 0.8s ease-in-out;
+	animation-iteration-count: 2;
 }
 
-.sound46 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
+.sound5 {
+	animation: whitebg 1s ease-in-out;
+	animation-iteration-count: 1;
 }
 
-.sound48 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
+.sound8 #video-placeholder {
+	animation: shake2 22.5s ease-in;
+	animation-iteration-count: 1;
 }
 
-.sound48 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
+.sound15 #video-placeholder {
+	animation: whitebg 1s ease-in-out;
+	animation-iteration-count: 1;
 }
 
-.sound49 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound49 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-.sound50 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound50 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound52 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound52 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound54 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound54 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound55 .svgjoe{
-	opacity: 0%;
-	transition: 0.5s ease;
-}
-
-.sound55 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound57 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound57 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound58 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-.sound58 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound60 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound60 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound61 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
 
-.sound61 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-
-.sound63 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound63 .svgjoe{
-	opacity: 100%;
-	transition: 0.5s ease;
-}
-
-.sound64 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound64 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound65 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound65 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound66 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
 
-.sound66 .svgbaseline{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound69 .svgbaseline{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound69 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound74 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound77 .svgexaminator{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
-
-.sound78 .svgexaminator{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
-
-.sound80 .svgexaminator{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
 
-.sound84 .svgexaminator{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
 
-.sound85 .svgjoe{
-	opacity: 100%;
-	transition: 0.2s ease;
-}
 
-.sound87 .svgjoe{
-	opacity: 0%;
-	transition: 0.2s ease;
-}
 
 
 /* Animations */
 
-.head-left{
-	position: absolute;
-	left: -10rem;
-	width: 150px;
-	height: 150px;
-	background-size: 150px 150px;
-	transform: rotate(0deg);
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+@keyframes shake {
+	0% { transform: translate(0%, -50%) rotate(0deg); }
+	0% { transform: translate(0%, -50%) rotate(0deg); }
+	10% { transform: translate(1%, -51%) rotate(-0.2deg); }
+	20% { transform: translate(-2%, -50%) rotate(0.2deg); }
+	30% { transform: translate(2%,-49%) rotate(0deg); }
+	40% { transform: translate(1%, -49%) rotate(0.2deg); }
+	50% { transform: translate(1%, -51%) rotate(-0.2deg); }
+	60% { transform: translate(-2%, -50%) rotate(0deg); }
+	70% { transform: translate(2%, -50%) rotate(-0.2deg); }
+	80% { transform: translate(-1%, -50%) rotate(0.2deg); }
+	90% { transform: translate(0%, -49%) rotate(0deg); }
+	100% { transform: translate(0%, -49%) rotate(-0.2deg); }
+}
+
+@keyframes shake2 {
+	0% { transform: translate(0%, -50%) rotate(0deg); }
+	0% { transform: translate(0%, -50%) rotate(0deg); }
+	10% { transform: translate(1%, -50%) rotate(-0.2deg); }
+	20% { transform: translate(-2%, -50%) rotate(0.2deg); }
+	30% { transform: translate(2%,-50%) rotate(0deg); }
+	40% { transform: translate(1%, -50%) rotate(0.2deg); }
+	50% { transform: translate(1%, -50%) rotate(-0.2deg); }
+	60% { transform: translate(-2%, -50%) rotate(0deg); }
+	70% { transform: translate(2%, -50%) rotate(-0.2deg); }
+	80% { transform: translate(-1%, -50%) rotate(0.2deg); }
+	90% { transform: translate(0%, -50%) rotate(0deg); }
+	100% { transform: translate(0%, -50%) rotate(-0.2deg); }
+}
+
+@keyframes zoomIn {
+	0% { transform: scale(1,1);top: 10%; }
+	20% { transform: scale(1.3,1.3);top: 10%;}
+	100% { transform: scale(1,1);top: 10%;}
+}
+
+@keyframes politie {
+	0% { transform: scale(1,1);top: 10%; }
+	40% { transform: scale(1.3,1.3);top: 10%;}
+	100% { transform: scale(1,1);top: 10%;}
 }
 
 
-.head-left{
-	animation: svg 2s ease-in-out;
-	transform: rotate(-10deg);
+@keyframes whitebg {
+	0%, 49% {
+		background-color: rgb(250, 250, 250);
+	}
+	50%, 100% {
+		background-color: #b4b4b4;
+	}
+  }
+
+@keyframes redbg {
+	0% {
+		background-color: #420C09;
+	}
+	100% {
+		background-color: #111111;
+	}
 }
-
-
-@keyframes svg {
-	0%  {right: -10rem;}
-	5%  {right: -10rem;}
-	10%  {right: -10rem;}
-	15%  {right: -10rem;}
-	20%  {right: 0rem;}
-	25%  {right: 0rem;}
-	30%  {right: 0rem;}
-	35%  {right: 0rem;}
-	40%  {right: 0rem;}
-	45%  {right: 0rem;}
-	50%  {right: 0rem;}
-	55%  {right: 0rem;}
-	60%  {right: 0rem;}
-	65%  {right: 0rem;}
-	70%  {right: 0rem;}
-	75%  {right: 0rem;}
-	80%  {right: 0rem;}
-	85%  {right: -10rem;}
-	90%  {right: -10rem;}
-	95%  {right: -10rem;}
-	100%  {right: -10rem;}
-}
-
-@keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(5deg); }
-   95% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
-}
-
 
 
 /* **********************************************
@@ -681,40 +258,11 @@ Met span :nth-of-type(nummer van woord hier) kun je ieder woord veranderen.
 	color: yellow;
 }
 
-.p2.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightgreen;
-}
-
-.p3.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p5.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p4.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
 
 .p6.on span:nth-of-type(-n+2) {
 	opacity: 1;
 	transition: 0s;
 	color: rgb(201, 41, 41);
-}
-
-.p7.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
 }
 
 .p8.on span:first-of-type {
@@ -723,239 +271,36 @@ Met span :nth-of-type(nummer van woord hier) kun je ieder woord veranderen.
 	color: lightblue;
 }
 
-.p9.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
 .p10.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
 	color: lightblue;
 }
 
-.p11.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p12.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p13.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p14.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p15.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p16.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p17.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p18.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p19.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p20.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p21.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p22.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p23.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p24.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p25.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p26.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p27.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p28.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p29.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p30.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p31.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p32.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p33.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p34.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p35.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p36.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p37.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p38.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p39.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p40.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightblue;
-}
-
-.p41.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p42.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-}
-
-.p43.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-} 
-
 .p44.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
 	color: lightgreen;
-} 
+}
 
-.p45.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightgreen;
-} 
-
-.p46.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: lightgreen;
-} 
-
-.p47.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	color: yellow;
-} 
 
 
 /* 2de deel */
+
+.p48.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: lightblue;
+}
+
+.p49.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: yellow;
+}
+
+.p79.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	color: lightgreen;
+}
