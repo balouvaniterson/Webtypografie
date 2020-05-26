@@ -32,12 +32,16 @@ html,body{
 
 /* Closed captions */
 
+#closed-captions{
+position: relative;
+}
+
 #closed-captions p{
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
 	color: white;
-	left: 30%;
+	left: 29%;
 	top: 75%;
 	size: 2em;
 	font-size: large;
@@ -51,48 +55,36 @@ html,body{
 	opacity: 0;
 }
 
-#talk1 p {
-	opacity: 0;
-	transition: .05s;
-	position: absolute;
-	color: white;
-	left: 10%;
-	top: 75%;
-	size: 2em;
-	font-size: large;
-	right: 0;
-	left: 1;
-}
-
 
 .robot {
 	font-family: "brenner mono";
-	font-weight: 600;
-	font-size: small;
+	font-weight: 400;
+	padding-right: 30%;
 }
 
-.robottag {
-	color:red;
+.joeface::before {
+	content: url(/jpg/joejpg.svg);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: 150%;
+	top: 200%;
 }
+
 
 .joe {
-	font-style: "brenner mono";
 	font-weight: 500;
 }
 
-.soldier {
-	font-style: "bold";
-	font-weight: 1000;
-}
-
 .examinator {
-	font-style: "brenner mono";
 	font-weight: 500;
 }
 
 .uppercase {
 	text-transform: uppercase;
-	font-size: medium;
+	font-family: "brenner slab";
+	font-weight: 500;
+	margin-left: 32%;
 }
 
 
@@ -100,7 +92,7 @@ html,body{
 
 .svgjoe {
 	position: relative;
-	left: 20%;
+	left: 22%;
 	margin-top: 5%;
 	opacity: 0%;
 }
@@ -108,7 +100,7 @@ html,body{
 .svgexaminator {
 	position: absolute;
 	margin-top: 5%;
-	left: 20%;
+	left: 22%;
 	opacity: 0%;
 }
 
@@ -116,14 +108,14 @@ html,body{
 	position: absolute;
 	margin-top: 5.5%;
 	opacity: 0%;
-	left: 20%;
+	left: 75%;
 }
 
 .svgbaseline {
 	position: absolute;
 	margin-top: 5%;
 	opacity: 0%;
-	left: 16%;
+	left: 68%;
 }
 
 
@@ -225,9 +217,14 @@ html,body{
   }
 
 
-/* Timeline */]
+/* Timeline */
 
-.sound0 {
+body .sound1{
+	animation-name: wiggle 2s ease;
+}
+
+.sound3 {
+	
 }
 
 .sound3 .svgexaminator{
@@ -244,6 +241,7 @@ html,body{
 	opacity: 100%;
 	transition: 0.2s ease;
 }
+
 
 .sound9 .svgjoe{
 	opacity: 0%;
@@ -647,6 +645,7 @@ html,body{
 }
 
 
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -692,6 +691,12 @@ Met span :nth-of-type(nummer van woord hier) kun je ieder woord veranderen.
 	opacity: 1;
 	transition: 0s;
 	color: yellow;
+}
+
+.p6.on span:nth-of-type(-n+2) {
+	opacity: 1;
+	transition: 0s;
+	color: rgb(201, 41, 41);
 }
 
 .p7.on span:first-of-type {
