@@ -13,7 +13,7 @@
 <p>Om mij zelf beter te kunnen verdiepen in de fragmenten heb ik de film gekeken en geanalyseerd.&nbsp;</p>
 <h2>&nbsp;</h2>
 <h2>Font</h2>
-<p>Ik heb voor <em>"Brenner font"&nbsp;</em>gekozen. Aangezien deze veel verschillende stijlen heeft en ik deze verschillende dan kon gebruiken voor de verschillende personages. Zo werd het sneller duidelijk wie er sprak en gaf zo'n ander lettertype een bepaalde sfeer mee, die bij het karakter pastte.</p>
+<p>Ik heb voor <em>"Brenner font"&nbsp;</em>gekozen. Aangezien deze veel verschillende stijlen heeft en ik deze verschillende dan kon gebruiken voor de verschillende personages. Zo werd het sneller duidelijk wie er sprak en gaf zo'n ander lettertype een bepaalde sfeer mee, die bij het karakter paste.</p>
 <h2>&nbsp;</h2>
 <h2>Concept</h2>
 <p>Mijn idee was om aan de hand van de gezichten van de personages en de tekst van de personages, het verhaal heel duidelijk te laten overkomen. Zo cre&euml;er je veel duideijkheid over wie er aan het woord is. Zelfs wanneer er meerdere personen tegelijk praten. Ook krijg je een bepaalde sfeer mee door middel van het gezicht en de tekstopmaak. Ook heb ik gekeken naar de positie van de gezichten en tekst. Zo heb ik de positie gebaseerd op waar de stem vandaan kwam in het fragment.&nbsp;</p>
