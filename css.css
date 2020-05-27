@@ -1,10 +1,12 @@
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-********************************************** */
+/* **************
+Balou van Iterson
+500774424
+Web-Typografie
+*****************/
+
+
+
+/* Body */
 
 html,body{
 	margin: 0;
@@ -56,6 +58,7 @@ html,body{
 	opacity: 0;
 }
 
+/* Characters */
 
 .joeface::before {
 	content: url(joejpg.svg);
@@ -135,7 +138,7 @@ html,body{
 
 
 .sound2 #video-placeholder {
-	animation: politie 1s ease-in-out;
+	animation: police 1s ease-in-out;
 	animation-iteration-count: 1;
 }
 
@@ -149,19 +152,61 @@ html,body{
 	animation-iteration-count: 2;
 }
 
-.sound5 {
+.sound4 #video-placeholder {
+	animation: zoom 1s ease-in-out;
+	animation-iteration-count: 1;
+}
+
+.sound5 #video-placeholder {
+	animation: inverted 2s;
+	animation-iteration-count: 1;
+}
+
+.sound6 #video-placeholder{
+	animation: shake 0.8s ease-in-out;
+	animation-iteration-count: 1;
+}
+
+.sound6 {
 	animation: whitebg 1s ease-in-out;
 	animation-iteration-count: 1;
 }
 
-.sound8 #video-placeholder {
-	animation: shake2 22.5s ease-in;
+.sound7 #video-placeholder {
+	animation: shake 0.8s ease-in-out;
 	animation-iteration-count: 1;
 }
 
-.sound15 #video-placeholder {
+.sound7 {
 	animation: whitebg 1s ease-in-out;
 	animation-iteration-count: 1;
+}
+
+
+.sound9 #video-placeholder {
+	animation: shake2 43s ease-in;
+	animation-iteration-count: 1;
+}
+
+.sound9 {
+	animation-duration: 43s;
+	animation-iteration-count: 1;
+	animation-name: slowfade;
+	animation-timing-function: linear;
+}
+
+.sound10 #video-placeholder {
+	animation: shake2 50s ease-in;
+	animation-iteration-count: 1;
+}
+
+
+.sound10 {
+	animation-duration: 50s;
+	animation-iteration-count: 1;
+	animation-name: slowfadezoom;
+	animation-timing-function: linear;
+	transform-origin: top;
 }
 
 
@@ -191,25 +236,25 @@ html,body{
 @keyframes shake2 {
 	0% { transform: translate(0%, -50%) rotate(0deg); }
 	0% { transform: translate(0%, -50%) rotate(0deg); }
-	10% { transform: translate(1%, -50%) rotate(-0.2deg); }
-	20% { transform: translate(-2%, -50%) rotate(0.2deg); }
-	30% { transform: translate(2%,-50%) rotate(0deg); }
-	40% { transform: translate(1%, -50%) rotate(0.2deg); }
-	50% { transform: translate(1%, -50%) rotate(-0.2deg); }
-	60% { transform: translate(-2%, -50%) rotate(0deg); }
-	70% { transform: translate(2%, -50%) rotate(-0.2deg); }
-	80% { transform: translate(-1%, -50%) rotate(0.2deg); }
+	10% { transform: translate(0%, -50%) rotate(-0.4deg); }
+	20% { transform: translate(0%, -50%) rotate(0.4deg); }
+	30% { transform: translate(0%,-50%) rotate(0deg); }
+	40% { transform: translate(0%, -50%) rotate(0.4deg); }
+	50% { transform: translate(0%, -50%) rotate(-0.4deg); }
+	60% { transform: translate(0%, -50%) rotate(0deg); }
+	70% { transform: translate(0%, -50%) rotate(-0.4deg); }
+	80% { transform: translate(0%, -50%) rotate(0.4deg); }
 	90% { transform: translate(0%, -50%) rotate(0deg); }
-	100% { transform: translate(0%, -50%) rotate(-0.2deg); }
+	100% { transform: translate(0%, -50%) rotate(-0.4deg); }
 }
 
-@keyframes zoomIn {
+@keyframes zoom {
 	0% { transform: scale(1,1);top: 10%; }
 	20% { transform: scale(1.3,1.3);top: 10%;}
 	100% { transform: scale(1,1);top: 10%;}
 }
 
-@keyframes politie {
+@keyframes police {
 	0% { transform: scale(1,1);top: 10%; }
 	40% { transform: scale(1.3,1.3);top: 10%;}
 	100% { transform: scale(1,1);top: 10%;}
@@ -225,6 +270,7 @@ html,body{
 	}
   }
 
+
 @keyframes redbg {
 	0% {
 		background-color: #420C09;
@@ -235,16 +281,39 @@ html,body{
 }
 
 
-/* **********************************************
-The first paragraph, with extended timing for 
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
+@keyframes slowfadezoom {
+	0% {
+		transform: scale(1.0);
+		background-color: #000000;
+	}
 
-Met span :nth-of-type(nummer van woord hier) kun je ieder woord veranderen.
-********************************************** */
+	95% {
+		transform: scale(1.12)
+	}
+	100% {
+		background-color: rgb(158, 167, 155);
+	}
+}
+
+@keyframes slowfade {
+	0% {
+		background-color: #000000;
+	}
+	100% {
+		background-color: rgb(158, 167, 155);
+	}
+}
+
+@keyframes inverted {
+    0% {
+        filter: invert(100%);
+    }
+    100% {
+        filter: invert(0%);
+    }
+}
+
+/* Text span's */
 
 .p0.on span:first-of-type {
 	opacity: 1;
