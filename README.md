@@ -7,9 +7,9 @@
 <h2>&nbsp;</h2>
 <h2>Voorbereiding</h2>
 <p>Omdat we speciaal voor Darice moesten onwerpen, mochten er vragen aan haar worden gesteld. Ik heb deze vragen naderhand geanalyseerd en aan de hand hiervan heb ik een persona van haar kunnen maken.</p>
-<p><img src="/daricejpg" alt="Persona Darice" /></p>
+<p><img src="/daricejpg.jpg" alt="Persona Darice" /></p>
 <p>Tijdens het ontwerpen van de closed-captions, kon ik deze er dan af en toe naast houden. Om te kijken of ik nog wel voor Darice aan het ontwerpen was.</p>
-<p><img src="/daricejpg" alt="Persona Darice" /></p>
+<p><img src="/dariceclosed.png" alt="Persona Darice" /></p>
 <p>Om mij zelf beter te kunnen verdiepen in de fragmenten heb ik de film gekeken en geanalasyeerd.&nbsp;</p>
 <h2>&nbsp;</h2>
 <h2>Font</h2>
