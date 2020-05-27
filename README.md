@@ -10,7 +10,7 @@
 <p><img src="/darice.jpg" alt="Persona Darice" /></p>
 <p>Tijdens het ontwerpen van de closed-captions, kon ik deze er dan af en toe naast houden. Om te kijken of ik nog wel voor Darice aan het ontwerpen was.</p>
 <p><img src="/dariceclosed.png" alt="Closed Darice" /></p>
-<p>Om mij zelf beter te kunnen verdiepen in de fragmenten heb ik de film gekeken en geanalasyeerd.&nbsp;</p>
+<p>Om mij zelf beter te kunnen verdiepen in de fragmenten heb ik de film gekeken en geanalyseerd.&nbsp;</p>
 <h2>&nbsp;</h2>
 <h2>Font</h2>
 <p>Ik heb voor <em>"Brenner font"&nbsp;</em>gekozen. Aangezien deze veel verschillende stijlen heeft en ik deze verschillende dan kon gebruiken voor de verschillende personages. Zo werd het sneller duidelijk wie er sprak en gaf zo'n ander lettertype een bepaalde sfeer mee, die bij het karakter pastte.</p>
