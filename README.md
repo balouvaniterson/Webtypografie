@@ -1,6 +1,7 @@
 <p>Web typografie / Balou van Iterson / VID-1</p>
 <h1>Web Typografie</h1>
-<p><br />Dit is mijn repository voor web-typografie. In deze repository vind je mijn versie van de fragmenten van de film Blade Runner 2049.</p>
+<p><br />Dit is mijn repository voor web-typografie.</p>
+<p>In deze repository vind je mijn versie van de fragmenten van de film Blade Runner 2049.</p>
 <h2>De opdracht</h2>
 <p>De opdracht was om aan de hand HTML/CSS/JS een closed-captions ontwerp te maken voor Darice. Darice is laat doof, hierdoor is het lastig om een film echt te beleven. Closed captions helpen om de film beter te begrijpen, maar de echte film beleving is nog ver te zoeken. Met mijn ontwerp hoop ik in ieder geval een stapje vooruit te zetten richting een goede beleving.&nbsp;</p>
 <h2>&nbsp;</h2>
