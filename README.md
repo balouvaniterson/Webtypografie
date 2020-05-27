@@ -31,7 +31,7 @@
 <p>&nbsp;</p>
 <h2>Versie 2</h2>
 <p>In versie 2 ben ik gaan experimenteren met de gezichten. Ik heb in Illustrator alle gezichten nagemaakt en gelayered. Het gezicht van de examinator was niet te zien, daarom heb ik geen details toegevoegd aan dit gezicht. Ik heb de gezichten daarna geexporteerd als svg en deze in de code toegevoegd. Daarna heb ik ieder onderdeel een id gegeven en deze in css een kleur gegeven. Zo kon ik de svg's nog aanpassen als ik dat wou. Vervolgens heb ik de sounds file enorm veel sounds aangemaakt. Zodat ik de svg's perfect kon timen met de video. (Achteraf was dit enorm veel werk en helemaal niet handig). Zo moest ik ze dus steeds apart stijlen per sound. En kon ik ze met de opacity laten verschijnen en verdwijnen.&nbsp;</p>
-<p><img src="/joekarakter.jpg" alt="karakter" /></p>
+<p><img src="/joekarakter.png" alt="karakter" /></p>
 <p>Het gaf een cool effect, het probleem was alleen dat ik nu de sounds niet meer kon gebruiken voor effecten.&nbsp;</p>
 <p>Feedback versie 2:</p>
 <p>- De svg's omvormen tot een background-img zodat ik deze kon toevoegen aan de p's. (aan de hand van ::before of ::after's.)</p>
@@ -40,9 +40,9 @@
 <p>&nbsp;</p>
 <h2>Versie 3</h2>
 <p>In versie 3 heb ik het systeem omgegooid. Aangezien ik die geluiden toch echt wel graag wou toevoegen. Dit heeft heel wat uurtjes gekost, gelukkig heb ik veel hulp kunnen krijgen van Chelsea. (Nogmaals bedankt!) Zo heb ik van de svg's, jpg's gemaakt en deze aan de hand van ::before's kunnen toevoegen aan de teksten.&nbsp;</p>
-<p><img src="/robotcode.jpg" alt="robot" /></p>
+<p><img src="/robotcode.png" alt="robot" /></p>
 <p>Nu kon ik effecten toevoegen aan de video. Aan de hand van keyframes kon ik deze effecten in css maken en op de sounds toevoegen aan de video. Deze heb ik allemaal gefinetuned, en ieder geluid en passend effect gegeven.</p>
-<p><img src="/shakecode.jpg" alt="effect" /></p>
+<p><img src="/shakecode.png" alt="effect" /></p>
 <p>Effecten die ik heb toegevoegd zijn:&nbsp;</p>
 <ul>
 <li>Het scherm laten trillen wanneer er een voertuig opstijgt.</li>
