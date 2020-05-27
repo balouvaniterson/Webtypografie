@@ -22,7 +22,7 @@
 <h2>&nbsp;</h2>
 <h2>Versie 1</h2>
 <p>In versie 1 heb ik vooral gepuzzeld met de teksten. Zo heb ik alle personages "tags" meegegeven. Deze tags kwamen aan het beginnen van iedere zin. In de tag stond de naam van het karakter. Ik heb ieder karakter ook een andere kleur meegegeven. Zo werd het snel duidelijk wie aan het praten was. Ook heb ik verschillende lettertypes meegegeven aan de karakters.</p>
-<p><img src="tag.jpg" alt="tag" /></p>
+<p><img src="/tag.png" alt="tag" /></p>
 <p>Feedback versie 1:</p>
 <p>- Een tag alleen de eerste keer dat dat personage spreekt laten zien.</p>
 <p>- Tekst wit houden.</p>
